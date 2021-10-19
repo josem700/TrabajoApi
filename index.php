@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="head">
-        <h1>PUNK IPA</h1>
-        
+      
+            <div class="photobg">
+        </div>
 
       <?php
             $ch = curl_init();
@@ -27,8 +29,10 @@
 
                     
                     $a = $data[$x]['image_url'];
+                    echo "<div class=beer>";
                     echo "<h1>",$data[$x]['name'],"</h1>";
-                    echo "<img src='$a'>";
+                    echo "<img src='$a' class='beers'>";
+                    echo "</div>";
                 }
                 
 

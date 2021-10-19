@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(background.jpg);
+    background-repeat: repeat-y;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#pagetitle{
+    size: 3em;
+}
+
+.photobg{
+
+
+    
+
+}
+
+.beer{
+   text-align: center;
+}
